@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E48AA,100:9E6EFE&height=200&section=header&text=Muhammad%20Awais%20Rafique&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20|%20Full%20Stack%20Developer&descAlignY=55&descAlign=50" width="100%" />
+  <img src= "https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Muhammad%20Hamza&textBg=false&animation=fadeIn)" width="100%" />
 </div>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=MuhammadAwaisRafique&color=6E48AA&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Hamza0590&color=6E48AA&style=for-the-badge" alt="Profile Views" />
 </div>
 
 ## 💫 About Me
