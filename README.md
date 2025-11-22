@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <a href="mailto:awaiss.rafique@gmail.com"><img src="https://img.shields.io/badge/Email-6E48AA?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/muhammad-awais-rafique-05673b268/"><img src="https://img.shields.io/badge/LinkedIn-6E48AA?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/MuhammadAwaisRafique"><img src="https://img.shields.io/badge/GitHub-6E48AA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/Email-6E48AA?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/Hamza0590/"><img src="https://img.shields.io/badge/LinkedIn-6E48AA?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://github.com/Hamza0590"><img src="https://img.shields.io/badge/GitHub-6E48AA?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 <div align="center">
@@ -16,11 +16,12 @@
 
 <img align="right" width="300" src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" />
 
-- 🎓 Currently pursuing **BS Software Engineering** at **FAST-NUCES Islamabad** (7th Semester)
-- 💻 Passionate about developing **scalable applications**, **backend APIs**, and **frontend experiences**
+- 🎓 Currently pursuing **BS Artificial Intelligence** at **FAST-NUCES Islamabad** (5th Semester)
+- 💻 Passionate about developing **scalable backend APIs**, **intelligent systems** and **robust ML models**
 - 🌱 Always learning and exploring new technologies
-- 🚀 Enthusiastic about **clean code** and **software architecture**
-- 🔍 Interested in **AI/ML** and **cloud technologies**
+- 🚀 Enthusiastic about **clean code** and **machine learning**
+- 🔍 Interested in **AI/ML**,**cloud technologies** and **applied research**
+- ⚙️ Driven by a curiosity to create **practical**, **production-ready AI solutions**.
 
 <br clear="right"/>
 
@@ -36,44 +37,39 @@
 </div>
 
 ## 🛠️ Technical Skills
-
 <details open>
-<summary><b>Programming Languages</b></summary>
-<br>
+<summary><b>Programming Languages</b></summary><br>
 <p align="left">
-  <img src="https://img.shields.io/badge/C%23-6E48AA?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/C%2B%2B-774BBE?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Java-804FD1?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-8953E5?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-9257F8?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-9E6EFE?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/SQL-6E48AA?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/MongoDB-774BBE?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-</p>
-</details>
-
-<details open>
-<summary><b>Frameworks & Technologies</b></summary>
-<br>
-<p align="left">
-  <img src="https://img.shields.io/badge/ASP.NET_Core-6E48AA?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-  <img src="https://img.shields.io/badge/React-774BBE?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-804FD1?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Spring_Boot-8953E5?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Angular-9257F8?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-</p>
-</details>
-
-<details open>
-<summary><b>Tools & Platforms</b></summary>
-<br>
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-6E48AA?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/SQL_Server-774BBE?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/Visual_Studio-804FD1?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio" />
-  <img src="https://img.shields.io/badge/Figma-8953E5?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Agile-9257F8?style=for-the-badge&logo=jira&logoColor=white" alt="Agile" />
-</p>
+  <img src="https://img.shields.io/badge/Python-6E48AA?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-774BBE?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" /> </p> 
+  </details> 
+<details open> 
+<summary><b>ML / DL Libraries</b></summary> <br> 
+<p align="left"> 
+  <img src="https://img.shields.io/badge/TensorFlow-6E48AA?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" /> 
+  <img src="https://img.shields.io/badge/Scikit--Learn-774BBE?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" /> <img src="https://img.shields.io/badge/Sentence--Transformers-804FD1?style=for-the-badge&logo=python&logoColor=white" alt="Sentence Transformers" /> 
+  <img src="https://img.shields.io/badge/NumPy-8953E5?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> 
+  <img src="https://img.shields.io/badge/Pandas-9257F8?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" /> 
+  <img src="https://img.shields.io/badge/Spacy-9E6EFE?style=for-the-badge&logo=spacy&logoColor=white" alt="Spacy" /> 
+  <img src="https://img.shields.io/badge/Matplotlib-6E48AA?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" /> 
+  <img src="https://img.shields.io/badge/Seaborn-774BBE?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" /> </p> </details>
+<details open> 
+<summary><b>AI/ML Concepts & Systems</b></summary> <br> 
+<p align="left"> 
+  <img src="https://img.shields.io/badge/RAG_Architecture-6E48AA?style=for-the-badge&logo=python&logoColor=white" alt="RAG" /> 
+  <img src="https://img.shields.io/badge/NLP-774BBE?style=for-the-badge&logo=python&logoColor=white" alt="NLP" /> 
+  <img src="https://img.shields.io/badge/Transformer_Models-804FD1?style=for-the-badge&logo=python&logoColor=white" alt="Transformers" /> <img src="https://img.shields.io/badge/Semantic_Search-8953E5?style=for-the-badge&logo=python&logoColor=white" alt="Semantic Search" /> <img src="https://img.shields.io/badge/Vector_Embeddings-9257F8?style=for-the-badge&logo=python&logoColor=white" alt="Vector Embeddings" /> <img src="https://img.shields.io/badge/MLP_Models-9E6EFE?style=for-the-badge&logo=python&logoColor=white" alt="MLP" /> </p> </details>
+<details open> 
+<summary><b>Tools & Platforms</b></summary> <br> 
+<p align="left"> 
+  <img src="https://img.shields.io/badge/Azure-6E48AA?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" /> 
+  <img src="https://img.shields.io/badge/Docker-774BBE?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> 
+  <img src="https://img.shields.io/badge/Kubernetes-804FD1?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" /> 
+  <img src="https://img.shields.io/badge/GitHub_Actions-8953E5?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Azure_DevOps-9257F8?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps" /> <img src="https://img.shields.io/badge/VMware_ESXI-6E48AA?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" /> 
+  <img src="https://img.shields.io/badge/Proxmox-774BBE?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" /> 
+  <img src="https://img.shields.io/badge/Hetzner_Cloud-804FD1?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner" /> 
+  <img src="https://img.shields.io/badge/Weaviate-8953E5?style=for-the-badge&logo=weaviate&logoColor=white" alt="Weaviate" /> 
+  <img src="https://img.shields.io/badge/ChromaDB-9257F8?style=for-the-badge&logo=python&logoColor=white" alt="ChromaDB" /> </p> 
 </details>
 
 ## 💼 Professional Experience
