@@ -47,7 +47,8 @@
 <summary><b>ML / DL Libraries</b></summary> <br> 
 <p align="left"> 
   <img src="https://img.shields.io/badge/TensorFlow-6E48AA?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" /> 
-  <img src="https://img.shields.io/badge/Scikit--Learn-774BBE?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" /> <img src="https://img.shields.io/badge/Sentence--Transformers-804FD1?style=for-the-badge&logo=python&logoColor=white" alt="Sentence Transformers" /> 
+  <img src="https://img.shields.io/badge/Scikit--Learn-774BBE?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" /> 
+  <img src="https://img.shields.io/badge/Sentence--Transformers-804FD1?style=for-the-badge&logo=python&logoColor=white" alt="Sentence Transformers" /> 
   <img src="https://img.shields.io/badge/NumPy-8953E5?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /> 
   <img src="https://img.shields.io/badge/Pandas-9257F8?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" /> 
   <img src="https://img.shields.io/badge/Spacy-9E6EFE?style=for-the-badge&logo=spacy&logoColor=white" alt="Spacy" /> 
@@ -58,16 +59,18 @@
 <p align="left"> 
   <img src="https://img.shields.io/badge/RAG_Architecture-6E48AA?style=for-the-badge&logo=python&logoColor=white" alt="RAG" /> 
   <img src="https://img.shields.io/badge/NLP-774BBE?style=for-the-badge&logo=python&logoColor=white" alt="NLP" /> 
-  <img src="https://img.shields.io/badge/Transformer_Models-804FD1?style=for-the-badge&logo=python&logoColor=white" alt="Transformers" /> <img src="https://img.shields.io/badge/Semantic_Search-8953E5?style=for-the-badge&logo=python&logoColor=white" alt="Semantic Search" /> <img src="https://img.shields.io/badge/Vector_Embeddings-9257F8?style=for-the-badge&logo=python&logoColor=white" alt="Vector Embeddings" /> <img src="https://img.shields.io/badge/MLP_Models-9E6EFE?style=for-the-badge&logo=python&logoColor=white" alt="MLP" /> </p> </details>
+  <img src="https://img.shields.io/badge/Transformer_Models-804FD1?style=for-the-badge&logo=python&logoColor=white" alt="Transformers" /> 
+  <img src="https://img.shields.io/badge/Semantic_Search-8953E5?style=for-the-badge&logo=python&logoColor=white" alt="Semantic Search" /> 
+  <img src="https://img.shields.io/badge/Vector_Embeddings-9257F8?style=for-the-badge&logo=python&logoColor=white" alt="Vector Embeddings" /> 
+  <img src="https://img.shields.io/badge/MLP_Models-9E6EFE?style=for-the-badge&logo=python&logoColor=white" alt="MLP" /> </p> 
+  </details>
 <details open> 
 <summary><b>Tools & Platforms</b></summary> <br> 
 <p align="left"> 
   <img src="https://img.shields.io/badge/Azure-6E48AA?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" /> 
   <img src="https://img.shields.io/badge/Docker-774BBE?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /> 
   <img src="https://img.shields.io/badge/Kubernetes-804FD1?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" /> 
-  <img src="https://img.shields.io/badge/GitHub_Actions-8953E5?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/Azure_DevOps-9257F8?style=for-the-badge&logo=azuredevops&logoColor=white" alt="Azure DevOps" /> <img src="https://img.shields.io/badge/VMware_ESXI-6E48AA?style=for-the-badge&logo=vmware&logoColor=white" alt="VMware" /> 
-  <img src="https://img.shields.io/badge/Proxmox-774BBE?style=for-the-badge&logo=proxmox&logoColor=white" alt="Proxmox" /> 
-  <img src="https://img.shields.io/badge/Hetzner_Cloud-804FD1?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner" /> 
+  <img src="https://img.shields.io/badge/GitHub_Actions-8953E5?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /> 
   <img src="https://img.shields.io/badge/Weaviate-8953E5?style=for-the-badge&logo=weaviate&logoColor=white" alt="Weaviate" /> 
   <img src="https://img.shields.io/badge/ChromaDB-9257F8?style=for-the-badge&logo=python&logoColor=white" alt="ChromaDB" /> </p> 
 </details>
@@ -76,13 +79,13 @@
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <div>
-    <h3>Software Developer Intern | Systems Limited</h3>
-    <p><em>June 2024 - August 2024</em></p>
-    <ul>
-      <li>Developed and enhanced scalable .NET applications using C#, ASP.NET Core, and SQL</li>
-      <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
-      <li>Participated in code reviews and implemented best practices</li>
-      <li>Gained hands-on experience with enterprise-level software development workflows</li>
+    <h3>AI Engineer Intern | Software Productivity Strategists INC.</h3>
+    <p><em>June 2025 - August 2025</em></p>
+    <ul> 
+      <li>Designed and deployed an AI-powered chatbot using IBM Watson Assistant, implementing NLP-driven conversation flows to automate client support</li> 
+      <li>Managed and configured Azure Virtual Machines, established secure VPN connections, and implemented robust backup policies</li> 
+      <li>Built and automated CI/CD pipelines using GitHub Actions and Azure DevOps to ensure seamless, zero-downtime deployments</li> 
+      <li>Deployed containerized applications on an IBM Kubernetes Service cluster</li> 
     </ul>
   </div>
 </div>
@@ -92,37 +95,33 @@
 <div align="center">
 <table>
   <tr>
-
- <td width="50%">
-  <h3 align="center">Code Verifier & Equivalence Checker</h3>
-  <div align="center">
-    <a href="https://ssa-smt-visuallizer-by-awais.streamlit.app/" target="_blank">
-      <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Code Verifier & SMT Visualizer"/>
-    </a>
-    <p>
-      <a href="https://github.com/your-username/ssa-smt-visualizer" target="_blank">
-        <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>  
-      <a href="https://ssa-smt-visuallizer-by-awais.streamlit.app/" target="_blank">
-        <img src="https://img.shields.io/badge/Demo-9E6EFE?style=for-the-badge&logo=streamlit&logoColor=white"/>
-      </a>
-    </p>
-    <p><strong>Python, Streamlit, Z3</strong> — Visual tool for checking program correctness and equivalence using SSA transformation, SMT solving, loop unrolling, and CFG visualization.</p>
-  </div>
-</td>
     <td width="50%">
-      <h3 align="center">Currency Converter Web App</h3>
+      <h3 align="center">Semantic Movie Recommendation System</h3>
       <div align="center">
-        <a href="#" target="_blank"><img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Project 2"/></a>
+        <a href="https://github.com/Hamza0590/Semantic-Movie-Recommendation-System-" target="_blank">
+          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Semantic Movie Recommender"/>
+        </a>
         <p>
-          <a href="" target="_blank">
+          <a href="https://github.com/Hamza0590/Semantic-Movie-Recommendation-System-" target="_blank">
             <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
-          </a>  
-          <a href="#" target="_blank">
-            <img src="https://img.shields.io/badge/Demo-9E6EFE?style=for-the-badge&logo=vercel&logoColor=white"/>
           </a>
         </p>
-        <p><strong>C#, ASP.NET Core, SQL</strong> - Integrated real-time currency exchange rates API with user-friendly interface for currency conversion and database for storing historical data.</p>
+        <p><strong>Python, Streamlit, HuggingFace, ChromaDB</strong> — Built a semantic movie recommendation engine with transformer-based embeddings and vector similarity search, deployed with a Streamlit UI.</p>
+      </div>
+    </td>
+
+    <td width="50%">
+      <h3 align="center">Simple RAG-Based Chatbot</h3>
+      <div align="center">
+        <a href="https://github.com/Hamza0590/Simple-RAG-Base-Chatbot" target="_blank">
+          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="RAG Chatbot"/>
+        </a>
+        <p>
+          <a href="https://github.com/Hamza0590/Simple-RAG-Base-Chatbot" target="_blank">
+            <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
+          </a>
+        </p>
+        <p><strong>Python, Weaviate, Sentence Transformers</strong> — Document QA chatbot supporting PDF, DOC, and TXT formats with customizable chunking, context retrieval, and vector search.</p>
       </div>
     </td>
   </tr>
