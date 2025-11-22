@@ -28,12 +28,12 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MuhammadAwaisRafique&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9E6EFE&icon_color=9E6EFE&text_color=FFFFFF" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadAwaisRafique&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9E6EFE&text_color=FFFFFF" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Hamza0590&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9E6EFE&icon_color=9E6EFE&text_color=FFFFFF" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza0590&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9E6EFE&text_color=FFFFFF" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MuhammadAwaisRafique&theme=tokyonight&hide_border=true&background=0D1117&stroke=9E6EFE&ring=9E6EFE&fire=9E6EFE&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9E6EFE&sideLabels=9E6EFE&dates=FFFFFF" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hamza0590&theme=tokyonight&hide_border=true&background=0D1117&stroke=9E6EFE&ring=9E6EFE&fire=9E6EFE&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9E6EFE&sideLabels=9E6EFE&dates=FFFFFF" alt="GitHub Streak" />
 </div>
 
 ## 🛠️ Technical Skills
