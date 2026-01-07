@@ -94,37 +94,59 @@
 
 <div align="center">
 <table>
+  
   <tr>
     <td width="50%">
-      <h3 align="center">Medical Chatbot</h3>
+      <h3 align="center">Agentic RAG Chatbot</h3>
+      <div align="center">
+        <a href="https://github.com/Hamza0590/Agentic-RAG-Chatbot" target="_blank">
+          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Agentic RAG Chatbot"/>
+        </a>
+        <p>
+          <a href="https://github.com/Hamza0590/Agentic-RAG-Chatbot" target="_blank">
+            <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
+          </a>
+        </p>
+        <p><em>December 2025</em></p>
+        <p><strong>Next.js, Flask, LangGraph, Pinecone, HuggingFace Embeddings, Groq LLM, SQLAlchemy, DuckDuckGo Search</strong></p>
+        <p>Built LangGraph-based agentic RAG orchestration with dual-source routing (Pinecone vector search + DuckDuckGo web search), improving response accuracy by 40% over single-source retrieval. Implemented token-aware chunking (500 tokens, 75 overlap) achieving 30% improved context retention. Developed a secure full-stack system with Next.js frontend and Flask REST API.</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">Advanced Medical Chatbot with Multi-Query RAG</h3>
       <div align="center">
         <a href="https://github.com/Hamza0590/Medical_Chatbot" target="_blank">
-          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="RAG Chatbot"/>
+          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Medical Chatbot"/>
         </a>
         <p>
           <a href="https://github.com/Hamza0590/Medical_Chatbot" target="_blank">
             <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
           </a>
         </p>
-        <p><strong>Python, Pinecone, Groq, LangChain, Sentence Transformers, flask</strong> — Built a medical chatbot using RAG (Retrieval Augmented Generation) to provide accurate medical information.</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">Semantic Movie Recommendation System</h3>
-      <div align="center">
-        <a href="https://github.com/Hamza0590/Semantic-Movie-Recommendation-System-" target="_blank">
-          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Semantic Movie Recommender"/>
-        </a>
-        <p>
-          <a href="https://github.com/Hamza0590/Semantic-Movie-Recommendation-System-" target="_blank">
-            <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
-          </a>
-        </p>
-        <p><strong>Python, Streamlit, HuggingFace, ChromaDB</strong> — Built a semantic movie recommendation engine with transformer-based embeddings and vector similarity search, deployed with a Streamlit UI.</p>
+        <p><em>November 2025</em></p>
+        <p><strong>Python, LangChain, Pinecone, Groq (LLaMA 3.3 70B), Flask, HuggingFace Embeddings</strong></p>
+        <p>Engineered an advanced RAG pipeline processing 5 query variations per request with Reciprocal Rank Fusion (RRF) algorithm, improving retrieval accuracy by 40% through re-ranking. Optimized application startup by implementing Flask threading architecture, reducing initial load time from 10 seconds to <1 second (90% improvement).</p>
       </div>
     </td>
   </tr>
+  
   <tr>
+    <td width="50%">
+      <h3 align="center">Movie Revenue Prediction & Genre Classification System</h3>
+      <div align="center">
+        <a href="https://github.com/Hamza0590/Movie-Revenue-Prediction" target="_blank">
+          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="Movie Revenue Prediction"/>
+        </a>
+        <p>
+          <a href="https://github.com/Hamza0590/Movie-Revenue-Prediction" target="_blank">
+            <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
+          </a>
+        </p>
+        <p><em>November 2025</em></p>
+        <p><strong>Python, NumPy, Pandas, NLTK, Matplotlib, Seaborn</strong></p>
+        <p>Trained and evaluated 6 custom models using k-fold cross-validation, achieving up to R² of 0.69 for revenue prediction and 34% accuracy for multi-class genre classification. Implemented custom evaluation metrics (MAE, RMSE, R², Precision, Recall, F1) with reproducible testing and converted models to TensorFlow Lite, achieving 3-5x model size reduction.</p>
+      </div>
+    </td>
     <td width="50%">
       <h3 align="center">Gesture-Controlled Mouse using MLP</h3>
       <div align="center">
@@ -136,21 +158,9 @@
             <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
           </a>
         </p>
-        <p><strong>Python, TensorFlow, CV2, PyAutoGUI</strong> — Achieved 97% accuracy using an MLP model to classify real-time hand gestures for cursor control with optimized smoothing.</p>
-      </div>
-    </td>
-   <td width="50%">
-      <h3 align="center">Street Fighter II – AI Game Bot</h3>
-      <div align="center">
-        <a href="https://github.com/Hamza0590/AI-Game-Bot" target="_blank">
-          <img src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/web.gif" width="100%" alt="AI Game Bot"/>
-        </a>
-        <p>
-          <a href="https://github.com/Hamza0590/AI-Game-Bot" target="_blank">
-            <img src="https://img.shields.io/badge/Code-6E48AA?style=for-the-badge&logo=github&logoColor=white"/>
-          </a>
-        </p>
-        <p><strong>Python, TensorFlow, Scikit-Learn</strong> — Trained an MLP-based agent achieving a 60% win rate against CPU by modeling in-game states and optimizing hyperparameters.</p>
+        <p><em>July 2025</em></p>
+        <p><strong>Python, TensorFlow, CV2, PyAutoGUI</strong></p>
+        <p>Developed real-time hands-free mouse system extracting 21 hand landmarks via webcam, training MLP model to classify gestures for cursor control and achieving 97% accuracy on movement and click actions. Integrated PyAutoGUI for virtual cursor control with 0.2% motion smoothing.</p>
       </div>
     </td>
   </tr>
