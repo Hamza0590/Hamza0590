@@ -16,7 +16,7 @@
 
 <img align="right" width="300" src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" />
 
-- 🎓 Currently pursuing **BS Artificial Intelligence** at **FAST-NUCES Islamabad** (5th Semester)
+- 🎓 Currently pursuing **BS Artificial Intelligence** at **FAST-NUCES Islamabad** (6th Semester)
 - 💻 Passionate about developing **scalable backend APIs**, **intelligent systems** and **robust ML models**
 - 🌱 Always learning and exploring new technologies
 - 🚀 Enthusiastic about **clean code** and **machine learning**
