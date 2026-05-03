@@ -89,43 +89,6 @@ hamza = {
 
 ---
 
-### 🤖 Agentic RAG Chatbot
-**`LangGraph` `Pinecone` `Groq LLM` `Flask` `HuggingFace Embeddings` `DuckDuckGo Search`** — *Dec 2025*
-
-> Dual-source agentic RAG with dynamic routing between vector store and live web search.
-
-- 📈 **+40% response accuracy** over single-source retrieval via dual-source routing (Pinecone + DuckDuckGo)  
-- 🧠 Token-aware chunking (500 tokens, 75 overlap) achieving **+30% context retention**  
-- 🔐 Secure full-stack system with Flask REST API backend  
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590/Agentic-RAG-Chatbot)
-
----
-
-### 🏥 Medical Chatbot — Multi-Query RAG Pipeline
-**`LangChain` `Pinecone` `Groq LLaMA 3.3 70B` `Flask` `HuggingFace Embeddings`** — *Nov 2025*
-
-> Advanced RAG system with 5-way query variation and Reciprocal Rank Fusion re-ranking.
-
-- 🎯 **+40% retrieval accuracy** via 5 query variations per request + RRF algorithm re-ranking  
-- ⚡ Cold-start latency: **10s → under 1s** (90% improvement) via Flask threading architecture  
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590/Medical_Chatbot)
-
----
-
-### 🖱️ Gesture-Controlled Mouse using MLP
-**`TensorFlow` `OpenCV` `PyAutoGUI` `Python`** — *Jul 2025*
-
-> Hands-free real-time cursor control via webcam hand landmark detection.
-
-- 🎯 **97% classification accuracy** across movement + click gestures  
-- 🖐️ Extracts 21 hand landmarks in real-time; MLP trained end-to-end with 0.2% motion smoothing  
-
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590/Virtual-Mouse-Movement)
-
----
-
 ## 🛠️ Technical Skills
 
 ### 🤖 Agentic AI & LLMs
