@@ -19,11 +19,11 @@
 ```python
 hamza = {
     "location"   : "Islamabad, Pakistan 🇵🇰",
-    "education"  : "BS Artificial Intelligence @ FAST-NUCES (2022–2027)",
+    "education"  : "BS Artificial Intelligence @ FAST-NUCES (2023–2027)",
     "focus"      : ["Agentic AI Systems", "RAG Pipelines", "Computer Vision", "LLMs"],
     "currently"  : ["ANN", "NLP", "Computer Vision (6th Semester)"],
     "goal"       : "AI Researcher → MS/PhD abroad",
-    "open_to"    : "Internships in AI · ML · NLP · CV · Automation · Python",
+    "open_to"    : "Job in AI · ML · NLP · CV · Automation · Python",
 }
 ```
 
