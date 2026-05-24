@@ -76,14 +76,14 @@ hamza = {
 
 ---
 
-### 🛒 Retail Shelf Analytics — Product Detection & Inventory Compliance
-**`YOLOv8` `PyTorch` `OpenCV` `Albumentations` `MS-COCO`** — *Mar 2026*
+### 🏔️ Glacial Lake Semantic Segmentation — Deep Learning Reproduction Study
+**`PyTorch`** **`OpenCV`** **`Albumentations`** **`Scikit-Learn`** **`Sentinel-2`** — *Mar 2026*
 
-> Real-time shelf scanning pipeline for out-of-stock detection and planogram violation flagging.
+> CNN architecture benchmarking for binary semantic segmentation of glacial lakes from multi-band satellite imagery.
 
-- 🏆 **97.8% accuracy** across 3 product classes — outperforming Mask R-CNN baseline (71.2%) by **+26.6 pp**  
-- ⚡ **16x inference speedup** (4s vs 67s) using YOLOv8-nano single-stage architecture  
-- 🔍 Under **5% false-positive rate** fusing bounding-box + segmentation outputs in unified analytics pipeline  
+- 🏆 **Best F1-score of 0.9557** (Simple CNN) across 3 architectures — outperforming U-Net and ASPP SegNet benchmarks
+- ⚡ **Lowest validation loss of 0.03337** (ASPP SegNet) over 25-epoch training on 256×256 Sentinel-2 tiles
+- 🔍 **Custom PyTorch Metric API** tracking per-epoch IoU & F1 with Albumentations augmentation improving generalization across Himalayan cryospheric environments 
 
 [![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590)
 
