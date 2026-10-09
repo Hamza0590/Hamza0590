@@ -5,6 +5,7 @@
 <p>
   <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/Email-FFFF23?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"></a>
   <a href="https://linkedin.com/in/hamza35502"><img src="https://img.shields.io/badge/LinkedIn-222222?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://hamza0590.vercel.app"><img src="https://img.shields.io/badge/Portfolio-EBEADA?style=for-the-badge" alt="Portfolio"></a>
 </p>
 
 Undergraduate AI researcher at FAST-NUCES Islamabad working across **computer vision**, **NLP** and **agentic systems**, with an accepted IBCAST 2026 paper.
@@ -150,6 +151,7 @@ Internships across computer vision research and applied AI engineering.
 <p>
   <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/hamza35502%40gmail.com-FFFF23?style=for-the-badge&logo=gmail&logoColor=000000" alt="hamza35502@gmail.com"></a>
   <a href="https://linkedin.com/in/hamza35502"><img src="https://img.shields.io/badge/LinkedIn-222222?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://hamza0590.vercel.app"><img src="https://img.shields.io/badge/Portfolio-EBEADA?style=for-the-badge" alt="Portfolio"></a>
 </p>
 
 <sub>© 2026 Muhammad Hamza</sub>
