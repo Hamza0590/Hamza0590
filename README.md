@@ -1,6 +1,6 @@
 <!-- Design follows my portfolio: beige canvas, black ink, one yellow accent, Schibsted Grotesk + Hanken Grotesk. -->
 
-<img src="assets/header.svg" width="100%" alt="Muhammad Hamza: AI Researcher & Engineer. Researching Intelligent Systems. 1 publication (IBCAST 2026, accepted), 4 projects. B.S. Artificial Intelligence, FAST-NUCES Islamabad, expected May 2027.">
+<img src="assets/header.svg" width="100%" alt="Muhammad Hamza: AI Researcher & Engineer. Researching Intelligent Systems. 1 publication (IBCAST 2026, accepted), 3 projects. B.S. Artificial Intelligence, FAST-NUCES Islamabad, expected May 2027.">
 
 <p>
   <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/Email-FFFF23?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"></a>
@@ -48,7 +48,7 @@ An edge system that decides, under limited compute, which model tier screens eac
 
 <img src="assets/02-work.svg" width="100%" alt="02 · Selected Work: Systems I've Built">
 
-AI systems and research projects, from agentic retrieval to graph neural networks and remote-sensing segmentation.
+AI systems and research projects, from agentic retrieval to remote-sensing segmentation and edge AI.
 
 ### Tax Sathi — Agentic Tax Assistant for Pakistan
 
@@ -62,16 +62,6 @@ Turns a plain-English or Urdu description of income into a full Pakistani income
 - Reads salary slips, withholding certificates and challans through a vision model, and shows the full reasoning trace in a live panel.
 
 `LangGraph` `LiteLLM` `Groq LLaMA 3.3 70B` `FastAPI` `Pydantic` `Supabase` `React` · Solo · [Code →](https://github.com/Hamza0590/fbr-taxation-agent)
-
-### Multi-Task GATs for Molecular Property Prediction
-
-A Graph Attention Network that jointly predicts solubility, toxicity and permeability from molecular graphs: 4 GAT layers, Global Attention Pooling and a Kendall uncertainty-weighted multi-task loss, benchmarked against Chemprop's D-MPNN and a single-task baseline on scaffold-split MoleculeNet datasets across 5 seeds.
-
-- Toxicity ROC-AUC **+0.030**.
-- Permeability screening cost **−24%**.
-- Isolated a task-conflict-driven **+25%** degradation in solubility RMSE.
-
-`Python` `PyTorch`
 
 ### Glacial Lake Semantic Segmentation — Reproduction Study
 
