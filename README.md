@@ -1,151 +1,165 @@
-<div align="center">
+<!-- Design follows my portfolio: beige canvas, black ink, one yellow accent, Schibsted Grotesk + Hanken Grotesk. -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&customColorList=12&text=Muhammad%20Hamza&fontSize=52&fontColor=ffffff&fontAlignY=40&desc=AI%20%2F%20ML%20Engineer%20%7C%20Agentic%20AI%20%7C%20RAG%20Systems%20%7C%20Computer%20Vision&descSize=17&descAlignY=62&animation=fadeIn" width="100%" />
+<img src="assets/header.svg" width="100%" alt="Muhammad Hamza: AI Researcher & Engineer. Researching Intelligent Systems. 1 publication (IBCAST 2026, accepted), 4 projects. B.S. Artificial Intelligence, FAST-NUCES Islamabad, expected May 2027.">
 
 <p>
-  <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/hamza35502/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/Hamza0590"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/Email-FFFF23?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email"></a>
+  <a href="https://linkedin.com/in/hamza35502"><img src="https://img.shields.io/badge/LinkedIn-222222?style=for-the-badge" alt="LinkedIn"></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=Hamza0590&color=6E48AA&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+Undergraduate AI researcher at FAST-NUCES Islamabad working across **computer vision**, **NLP** and **agentic systems**, with an accepted IBCAST 2026 paper.
 
-</div>
+It started with machines that could hold a conversation with people. I wanted to know how they worked, and the work below is where that question took me.
 
----
+| **Agentic AI** | **Computer Vision** | **NLP** |
+|---|---|---|
+| Tool-using LLM agents with structured retrieval and long-horizon reasoning. | Foundation models like SAM, segmentation and medical imaging. | Retrieval-augmented generation over long, structured documents, and assistants that answer in English and Urdu. |
 
-## 🧠 About Me
+<br>
 
-```python
-hamza = {
-    "location"   : "Islamabad, Pakistan 🇵🇰",
-    "education"  : "BS Artificial Intelligence @ FAST-NUCES (2023–2027)",
-    "focus"      : ["Agentic AI Systems", "RAG Pipelines", "Computer Vision", "LLMs"],
-    "currently"  : ["ANN", "NLP", "Computer Vision (6th Semester)"],
-    "goal"       : "AI Researcher → MS/PhD abroad",
-    "open_to"    : "Job in AI · ML · NLP · CV · Automation · Python",
-}
-```
+<img src="assets/01-research.svg" width="100%" alt="01 · Research & Publications">
 
-- 🔬 I build **production-ready AI systems** — from agentic pipelines to real-time CV deployments  
-- 🧩 Passionate about **LLM orchestration**, **hybrid RAG**, and **multi-agent architectures**  
-- 🚀 Everything I build is benchmarked, evaluated, and optimized — not just PoCs  
-- 📫 Reach me at **hamza35502@gmail.com**
+Papers and ongoing research in computer vision, medical imaging and machine learning.
 
----
+### Feature-Level Fusion of Complementary Vision Transformers for Generalizable Medical Image Classification
 
-## 💼 Work Experience
+Hassan Abdullah, **Muhammad Hamza**, Muhammad Ibrahim, Dr. Qurat Ul Ain · *IBCAST 2026* · **Accepted**
 
-### 🏢 AI Engineer Intern — Software Productivity Strategists Inc.
-**📍 Remote (Rockville, Maryland) | Jul 2025 – Sep 2025**
+<img src="assets/research-vit-fusion.png" width="100%" alt="Fusion architecture: an input image goes through three frozen backbones (MedViT2, MedFormer and DeiT); each feature vector passes through its own linear projection layer, the projected vectors are concatenated into one 768-dimensional vector, and a shared classifier makes the prediction.">
 
-| What I Did | Impact |
-|---|---|
-| Built IBM Watson Assistant chatbot with custom intents, entities & dialog flows (10+ query categories) | ~40% reduction in manual client support time |
-| Provisioned 3 Azure VMs with site-to-site VPN + automated daily backup policies | Data loss window: 72h → under 24h |
-| Designed CI/CD pipelines (GitHub Actions + Azure DevOps) across 2 environments | ~60% reduction in manual deployment effort |
-| Deployed containerized apps on IBM Kubernetes Service cluster | Zero-downtime automated rollbacks |
+Fuses three frozen Vision Transformer backbones and trains only **0.75%** of the parameters, reaching **95.73%** on chest X-ray pneumonia, **93.17%** on brain MRI and **78.58%** on ISIC 2018 skin lesions across seven medical imaging datasets.
 
----
+**My part:** led the ablation study across 7 backbone configurations and the cross-domain evaluation on 4 MedMNIST benchmarks.
 
-## 🚀 Featured Projects
+[Code →](https://github.com/Hamza0590/Feature_Level_Fusion_of_Vision_Transformers)
 
-### 🏛️ FBR Taxation Agentic System
-**`LangGraph` `LangChain` `Groq LLaMA 3.3 70B` `FastAPI` `Pydantic` `Python`** — *Apr 2026*
+### Resource- and Contention-Aware Edge Triage for Astronomical Transients · *ongoing*
 
-> End-to-end AI system for Pakistani income tax computation mapped to actual law clauses.
+<img src="assets/work-edge-astronomical-triage.png" width="100%" alt="Diagram: a stream of candidates enters a model tier (Tiny, Medium, Large); each candidate is then discarded, compressed or transmitted.">
 
-- 📈 **+25% clause-level retrieval accuracy** over dense-only vector search via hierarchical PageIndex retrieval across 50+ Income Tax Ordinance segments  
-- ⚡ **Under 4s** end-to-end tax computation with law-mapped PDF output via LangGraph ReAct agent  
-- 📊 Evaluated with **Precision@K** across 80+ annotated clause queries for metric-driven iteration  
+An edge system that decides, under limited compute, which model tier screens each astronomical transient candidate, how many inferences run at once, and whether the data is discarded, compressed or transmitted. A Tiny/Medium/Large CNN family classifies real versus bogus candidates from MeerCRAB/MeerLICHT cutouts; a resource-aware scheduler picks the tier and concurrency, and MC-dropout uncertainty escalates ambiguous candidates.
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590)
+**Status:** in implementation. Results will be added once the experiments are complete.
+**My part:** literature review, code and system review.
 
----
+`Python` `PyTorch` `NumPy` `pandas` `scikit-learn` · [Code →](https://github.com/Hamza0590/Edge_Triage_System)
 
-### 🏨 Grand Vista Hotel — Intelligent Concierge System
-**`LangGraph` `ChromaDB` `BM25` `Ollama` `FastAPI` `Supabase` `Docker`** — *Mar 2026*
+<br>
 
-> Local-first hotel assistant with stateful multi-turn conversations and zero inference cost.
+<img src="assets/02-work.svg" width="100%" alt="02 · Selected Work: Systems I've Built">
 
-- ⚡ **Under 3s** response time with **zero inference cost** — Ollama local LLM, containerized via Docker, served over FastAPI SSE  
-- 🎯 **+18% top-5 retrieval precision** via hybrid RAG (ChromaDB dense + BM25 sparse + RRF fusion) over 120 annotated query pairs  
-- 🤖 **87% of queries resolved without human escalation** via 5 agentic tools: room booking, dining, spa, attractions, room service  
+AI systems and research projects, from agentic retrieval to graph neural networks and remote-sensing segmentation.
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590)
+### Tax Sathi — Agentic Tax Assistant for Pakistan
 
----
+<img src="assets/work-fbr-taxation-agentic-system.png" width="100%" alt="Diagram: a chat message flows through four stages (extract, retrieve, interpret, calculate) into a result citing law sections.">
 
-### 🏔️ Glacial Lake Semantic Segmentation — Deep Learning Reproduction Study
-**`PyTorch`** **`OpenCV`** **`Albumentations`** **`Scikit-Learn`** **`Sentinel-2`** — *Mar 2026*
+Turns a plain-English or Urdu description of income into a full Pakistani income-tax calculation, with FBR section citations and an auditable reasoning trace.
 
-> CNN architecture benchmarking for binary semantic segmentation of glacial lakes from multi-band satellite imagery.
+- **4-stage LangGraph pipeline:** extraction → retrieval → interpretation → calculation.
+- **80+ ordinance sections** in a tree index over the Income Tax Ordinance 2001, searched in two passes that follow cross-references.
+- **The LLM classifies, Python calculates:** the model only makes legal classification decisions; tax is computed deterministically from the FY 2025-26 rate tables, so every number is reproducible.
+- Reads salary slips, withholding certificates and challans through a vision model, and shows the full reasoning trace in a live panel.
 
-- 🏆 **Best F1-score of 0.9557** (Simple CNN) across 3 architectures — outperforming U-Net and ASPP SegNet benchmarks
-- ⚡ **Lowest validation loss of 0.03337** (ASPP SegNet) over 25-epoch training on 256×256 Sentinel-2 tiles
-- 🔍 **Custom PyTorch Metric API** tracking per-epoch IoU & F1 with Albumentations augmentation improving generalization across Himalayan cryospheric environments 
+`LangGraph` `LiteLLM` `Groq LLaMA 3.3 70B` `FastAPI` `Pydantic` `Supabase` `React` · Solo · [Code →](https://github.com/Hamza0590/fbr-taxation-agent)
 
-[![GitHub](https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Hamza0590)
+### Multi-Task GATs for Molecular Property Prediction
 
----
+A Graph Attention Network that jointly predicts solubility, toxicity and permeability from molecular graphs: 4 GAT layers, Global Attention Pooling and a Kendall uncertainty-weighted multi-task loss, benchmarked against Chemprop's D-MPNN and a single-task baseline on scaffold-split MoleculeNet datasets across 5 seeds.
 
-## 🛠️ Technical Skills
+- Toxicity ROC-AUC **+0.030**.
+- Permeability screening cost **−24%**.
+- Isolated a task-conflict-driven **+25%** degradation in solubility RMSE.
 
-### 🤖 Agentic AI & LLMs
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-6E48AA?style=flat-square&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-181717?style=flat-square&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-6E48AA?style=flat-square&logoColor=white)
+`Python` `PyTorch`
 
-### 📚 RAG & Retrieval
-![Pinecone](https://img.shields.io/badge/Pinecone-6E48AA?style=flat-square&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-4285F4?style=flat-square&logoColor=white)
-![Weaviate](https://img.shields.io/badge/Weaviate-52BE80?style=flat-square&logoColor=white)
-![BM25](https://img.shields.io/badge/BM25%20Sparse-orange?style=flat-square)
-![RRF](https://img.shields.io/badge/Reciprocal%20Rank%20Fusion-blue?style=flat-square)
+### Glacial Lake Semantic Segmentation — Reproduction Study
 
-### 👁️ Computer Vision & ML
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+<img src="assets/work-glacial-lake-segmentation.png" width="100%" alt="Two predicted glacial lake masks in yellow on a dark background.">
 
-### 🌐 Web & APIs
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+Reproduced the IEEE JSTARS 2025 study by Xue et al. in PyTorch: U-Net, Simple CNN and ASPP-SegNet trained on 410 Sentinel-2 tiles of the Himalayas, with a FastAPI + React app to compare their masks.
 
-### ☁️ Cloud & DevOps
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+| Model | Val IoU | Val F1 |
+|---|---|---|
+| **ASPP-SegNet** | **0.9010** | **0.9479** |
+| U-Net | 0.8693 | 0.9301 |
+| Simple CNN | 0.8410 | 0.9136 |
 
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+Every deviation from the paper is documented with its reason. Lead developer in a two-person project.
 
----
+`PyTorch` `Albumentations` `OpenCV` `FastAPI` `React` · [Code →](https://github.com/Hamza0590/glacial-lake-semantic-segmentation)
 
-## 📊 GitHub Analytics
+<br>
 
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Hamza0590&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9E6EFE&icon_color=9E6EFE&text_color=FFFFFF&count_private=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza0590&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9E6EFE&text_color=FFFFFF"/>
-</div>
+<img src="assets/03-experience.svg" width="100%" alt="03 · Experience: Where I've Worked">
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hamza0590&theme=tokyonight&hide_border=true&background=0D1117&stroke=9E6EFE&ring=9E6EFE&fire=9E6EFE&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=9E6EFE&sideLabels=9E6EFE&dates=FFFFFF" alt="GitHub Streak"/>
-</div>
+Internships across computer vision research and applied AI engineering.
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hamza0590&bg_color=0D1117&color=9E6EFE&line=6E48AA&point=9E6EFE&area=true&hide_border=true" width="100%"/>
-</div>
+**Computer Vision Research Intern** · SYSTEMS · Islamabad · *Jul – Aug 2026*
+- Reproduced a supervisor-authored paper's architecture in PyTorch and fine-tuned SAM's mask decoder on the Massachusetts Buildings Dataset, raising mean IoU from **0.169 to 0.679** (4.02×) over zero-shot.
+- Benchmarked fine-tuned SAM against RemoteSAM and vanilla zero-shot SAM on held-out aerial tiles, cutting segmentation errors by **2.59×** (F1 0.240 → 0.802).
 
----
+**AI Intern** · Software Productivity Strategists · Islamabad · *Jul – Sep 2025*
+- Designed an AI chatbot with IBM Watson Assistant, integrating NLP flows to automate client support and cutting manual response time by about **40%**.
+- Provisioned 3 Azure VMs with site-to-site VPN and automated daily backups, reducing the data-loss window from **72h to under 24h**.
+- Automated CI/CD with GitHub Actions and Azure DevOps (environment-gated approvals, automatic rollback), reducing manual deployment effort by about **60%**.
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" width="100%"/>
-</div>
+<br>
+
+<img src="assets/04-stack.svg" width="100%" alt="04 · Tech Stack: Tools I Build With">
+
+**Languages**
+<img src="https://img.shields.io/badge/Python-EBEADA?style=flat-square&logo=python&logoColor=000000" alt="Python">
+<img src="https://img.shields.io/badge/C%2B%2B-EBEADA?style=flat-square&logo=cplusplus&logoColor=000000" alt="C++">
+<img src="https://img.shields.io/badge/JavaScript-EBEADA?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript">
+
+**ML & Deep Learning**
+<img src="https://img.shields.io/badge/PyTorch-EBEADA?style=flat-square&logo=pytorch&logoColor=000000" alt="PyTorch">
+<img src="https://img.shields.io/badge/TensorFlow-EBEADA?style=flat-square&logo=tensorflow&logoColor=000000" alt="TensorFlow">
+<img src="https://img.shields.io/badge/Hugging%20Face-EBEADA?style=flat-square&logo=huggingface&logoColor=000000" alt="Hugging Face">
+<img src="https://img.shields.io/badge/scikit--learn-EBEADA?style=flat-square&logo=scikitlearn&logoColor=000000" alt="scikit-learn">
+<img src="https://img.shields.io/badge/NumPy-EBEADA?style=flat-square&logo=numpy&logoColor=000000" alt="NumPy">
+<img src="https://img.shields.io/badge/pandas-EBEADA?style=flat-square&logo=pandas&logoColor=000000" alt="pandas">
+
+**LLMs & Agents**
+<img src="https://img.shields.io/badge/LangGraph-EBEADA?style=flat-square" alt="LangGraph">
+<img src="https://img.shields.io/badge/LangChain-EBEADA?style=flat-square&logo=langchain&logoColor=000000" alt="LangChain">
+<img src="https://img.shields.io/badge/LiteLLM-EBEADA?style=flat-square" alt="LiteLLM">
+<img src="https://img.shields.io/badge/Groq-EBEADA?style=flat-square" alt="Groq">
+<img src="https://img.shields.io/badge/FAISS-EBEADA?style=flat-square" alt="FAISS">
+<img src="https://img.shields.io/badge/IBM%20Watson%20Assistant-EBEADA?style=flat-square" alt="IBM Watson Assistant">
+
+**Computer Vision**
+<img src="https://img.shields.io/badge/OpenCV-EBEADA?style=flat-square&logo=opencv&logoColor=000000" alt="OpenCV">
+<img src="https://img.shields.io/badge/YOLOv8-EBEADA?style=flat-square" alt="YOLOv8">
+<img src="https://img.shields.io/badge/SAM-EBEADA?style=flat-square" alt="SAM">
+<img src="https://img.shields.io/badge/Albumentations-EBEADA?style=flat-square" alt="Albumentations">
+
+**Backend & Deployment**
+<img src="https://img.shields.io/badge/FastAPI-EBEADA?style=flat-square&logo=fastapi&logoColor=000000" alt="FastAPI">
+<img src="https://img.shields.io/badge/Pydantic-EBEADA?style=flat-square&logo=pydantic&logoColor=000000" alt="Pydantic">
+<img src="https://img.shields.io/badge/React-EBEADA?style=flat-square&logo=react&logoColor=000000" alt="React">
+<img src="https://img.shields.io/badge/Supabase-EBEADA?style=flat-square&logo=supabase&logoColor=000000" alt="Supabase">
+<img src="https://img.shields.io/badge/Azure-EBEADA?style=flat-square" alt="Azure">
+<img src="https://img.shields.io/badge/Azure%20DevOps-EBEADA?style=flat-square" alt="Azure DevOps">
+<img src="https://img.shields.io/badge/GitHub%20Actions-EBEADA?style=flat-square&logo=githubactions&logoColor=000000" alt="GitHub Actions">
+
+**On GitHub**
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Hamza0590&show_icons=true&count_private=true&hide_border=true&border_radius=12&bg_color=E4E0CE&title_color=000000&text_color=000000&icon_color=000000&ring_color=000000" alt="GitHub stats">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamza0590&layout=compact&hide_border=true&border_radius=12&bg_color=E4E0CE&title_color=000000&text_color=000000" alt="Top languages">
+
+<br>
+
+<img src="assets/exploring.svg" width="100%" alt="What's Next? Currently exploring: building Agentic AI systems that see with Computer Vision and understand people through NLP.">
+
+<br>
+
+<img src="assets/contact.svg" width="100%" alt="Let's Build Something Worth Researching. Working on something interesting? Open to research collaborations, research internships and AI engineering roles.">
+
+<p>
+  <a href="mailto:hamza35502@gmail.com"><img src="https://img.shields.io/badge/hamza35502%40gmail.com-FFFF23?style=for-the-badge&logo=gmail&logoColor=000000" alt="hamza35502@gmail.com"></a>
+  <a href="https://linkedin.com/in/hamza35502"><img src="https://img.shields.io/badge/LinkedIn-222222?style=for-the-badge" alt="LinkedIn"></a>
+</p>
+
+<sub>© 2026 Muhammad Hamza</sub>
